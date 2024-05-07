@@ -1,6 +1,6 @@
 import '@rainbow-me/rainbowkit/styles.css';
 import { getDefaultWallets, RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit';
-import { configureChains, createConfig, WagmiConfig } from 'wagmi';
+import { configureChains, createConfig, WagmiConfig } from 'wagmi-v1';
 import * as wagmiChains from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
 import { PropsWithChildren } from 'react';
